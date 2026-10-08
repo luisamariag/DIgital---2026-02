@@ -1,4 +1,4 @@
-1. [Código]
+# 1. [Código]
 El código en Verilog que se utilizo para el circuito sumador de 4 bit se presenta a continuación en la figura 1.
 <img width="377" height="442" alt="image" src="https://github.com/user-attachments/assets/a26b4a8a-b597-43e0-9957-05f7188e5a28" />
 
@@ -72,7 +72,7 @@ Fig 1. Código verilog sumador 4 bit
 
 - **`endmodule`**: Concluye la descripción en Verilog del módulo `sumador4b`.
   
-## 2. [Distribución pines]
+# 2. [Distribución pines]
 La distribución de los pines del circuito se presentan a acontinuación en la figura 2.
 <img width="986" height="747" alt="image" src="https://github.com/user-attachments/assets/890a7ddc-ef49-46b2-a717-4cc97dec4172" />
 
@@ -80,7 +80,7 @@ Fig 2. Pines circuito sumador de 4 bit
 
 
 
-## 3. [Ejemplo]
+# 3. [Ejemplo]
 # Ejemplo de Suma de 2 Números de 4 Bits (`sumador4b.v`)
 
 Este documento analiza el comportamiento del hardware al sumar dos números binarios de 4 bits ($A$ y $B$) junto con un acarreo de entrada ($C_{in}$).
