@@ -28,7 +28,7 @@ Fig 2. Pines circuito sumador de 1 bit
 
 La tabla de verdad del circuito se presenta en la figura 3 a continuación.
 
-<img width="331" height="450" alt="image" src="https://github.com/user-attachments/assets/c710ffba-02ce-42d7-8de8-6944d0833475" />
+<img width="198" height="226" alt="imagen" src="https://github.com/user-attachments/assets/397090cb-bbc4-45cb-8f10-42be714ed26f" />
 
 Fig 3. Tabla de verdad sumador de 1 bit
 
