@@ -2,9 +2,11 @@
 
 Contenido:
 
-1. [Código]
+## 1. [Código]
 El código en Verilog que se utilizo para el circuito sumador de 1 bit se presenta a continuación en la figura 1.
+
 <img width="965" height="621" alt="image" src="https://github.com/user-attachments/assets/def14b62-f783-4502-9d61-805c7d734189" />
+
 Fig 1. Código verilog sumador 1 bit
 
 Donde:
@@ -14,21 +16,27 @@ Donde:
 - assign Sum = A ^ B ^ Cin;: Implementa la lógica de la suma utilizando dos compuertas XOR. La salida será 1 cuando un número impar de entradas sea 1.
 - assign Cout = (A & B) | (Cin & (A ^ B));: Implementa la lógica del acarreo de salida. Genera un acarreo 1 si ambos bits A y B son 1, o si el acarreo previo Cin es 1 y uno de los operandos es 1
   
-2. [Distribución pines]
+## 2. [Distribución pines]
 La distribución de los pines del circuito se presentan a acontinuación en la figura 2.
+
 <img width="1437" height="941" alt="image" src="https://github.com/user-attachments/assets/edfb75a3-4be9-4417-9a9b-7458cfac9c73" />
+
 
 Fig 2. Pines circuito sumador de 1 bit
 
-3. [Tabla de verdad]
+## 3. [Tabla de verdad]
+
 La tabla de verdad del circuito se presenta en la figura 3 a continuación.
+
 <img width="331" height="450" alt="image" src="https://github.com/user-attachments/assets/c710ffba-02ce-42d7-8de8-6944d0833475" />
 
 Fig 3. Tabla de verdad sumador de 1 bit
 
 
-4. [Ejemplo]
+# 4. [Ejemplo]
+
 Por último, en la imagen 4 se muestra un ejemplo del funcionamiento del circuito.
+
 <img width="180" height="177" alt="image" src="https://github.com/user-attachments/assets/e650bde1-68f9-4b15-a765-219c4b174ab8" />
 
 Fig 4. Funcionamiento del circuito
